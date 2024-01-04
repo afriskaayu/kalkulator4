@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Viga;
+}
+
+body {
+    background: black;
+    height: 637px;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%) translateY(-50%);
+    width: fixed;
+    background: rgb(142, 92, 131);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px;
+}
+
+.main h2 {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    border: none;
+    background: rgb(165, 30, 145);
+    color: black;
+    border-radius: 25px;
+}
+
+.btn-green {
+    background-color:  rgb(165, 30, 145);
+    color: rgb(0, 0, 0);
+}
+
+.textarea {
+    width: 204px;
+    margin: 4px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    color: #00000094;
+    border-radius: 25px;
+    text-align: right;
+}
